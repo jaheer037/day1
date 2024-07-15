@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgb(78, 20, 103);
+            color: rgb(126, 216, 236);
+            margin-bottom: 30px;
+        }
+        #photo{
+            display: flex;
+            
+            justify-content: center;
+        }
+        .container1{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            height: 52vh;
+            align-items: center;
+        }
+        .item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 10px;
+        }
+    </style>
+</head>
+<body style="background-color: darkolivegreen;">
+    <div class="container">
+        <div>Home</div>
+        <div>Career</div>
+        <div>About Us</div>
+        <div>Awards</div>
+        <div>More</div>
+    </div>
+    <div id="photo"><img src="./image.jpg" alt="dice image"/></div>
+    <hr/>
+    <div class="container1" style="width: 100%;">
+        <div class="item"><video src="./video.mp4" controls></video></div>
+        <div class="item center"><audio src="./sample audio.mp3" controls></audio></div>
+        <div class="item"><p>Aliquam congue, lectus non vehicula congue, libero augue rhoncus erat, sit amet convallis dui lectus sollicitudin libero. Donec porttitor erat in ligula tincidunt, vehicula condimentum sem consectetur.</p></div>
+    </div>
+    
+    <hr/>
+    
+    <p style="text-align: center;">&copy by AI Department</p>
+</body>
+</html>
